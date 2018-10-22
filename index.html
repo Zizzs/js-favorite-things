@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+   <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>Favorite Things</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="formInfo">
+        <div id="yourNameDiv" class="form-group">
+          <label class="control-label" for="nameInput">What is your name?</label>
+          <input required="" id="nameInput" class="form-control" type="text">
+        </div>
+        <div id="colorDiv" class="form-group">
+          <label class="control-label" for="colorInput">What is your favorite color?</label>
+          <input required="" id="colorInput" class="form-control" type="text">
+        </div>
+        <div id="animalDiv" class="form-group">
+          <label class="control-label" for="animalInput">What is your favorite animal?</label>
+          <input required="" id="animalInput" class="form-control" type="text">
+        </div>
+        <div id="cityDiv" class="form-group">
+          <label class="control-label" for="cityInput">What is your favorite city?</label>
+          <input required="" id="cityInput" class="form-control" type="text">
+        </div>
+        <button id="submitbutton" type="submit" class="btn btn-info btn-lg">Show Me My Language</button>
+      </form>
+      <ul>
+        <li><span id="firstSpan"></span></li>
+        <li><span id="secondSpan"></span></li>
+        <li><span id="thirdSpan"></span></li>
+        <li><span id="fourthSpan"></span></li>
+      </ul>
+    </div>
+  </body>
+  <script src="js/jquery-3.3.1.js"> </script>
+  <script src="js/scripts.js"> </script>
+</html>
